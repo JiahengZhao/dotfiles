@@ -1,4 +1,9 @@
 # Alias
 alias sourceroot="source ~/.zshrc"
-alias sourcehere="source install/setup.zsh"
+# alias sourcehere="source install/setup.zsh"
 # Alias function
+sourcehere() {
+    source .venv/bin/activate
+    source install/setup.zsh
+    export PYTHONPATH=.venv/lib/python3.12/site-packages:$PYTHONPATH
+}
