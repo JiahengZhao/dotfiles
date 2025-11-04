@@ -17,7 +17,7 @@ alias rti="ros2 topic info"
 alias rte="ros2 topic echo"
 alias rth="ros2 topic hz"
 alias rbi="ros2 bag info"
-
+alias rosid='echo -e "\033[1;33mROS_DOMAIN_ID:\033[0m \033[1;31m$ROS_DOMAIN_ID\033[0m"'
 # Alias function
 rr() {
   ros2 run "$@"
