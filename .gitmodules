@@ -1,3 +1,6 @@
 [submodule "zsh/plugins/custom/zsh-syntax-highlighting"]
 	path = zsh/plugins/custom/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "config/tmux/tmux-resurrect"]
+	path = config/tmux/tmux-resurrect
+	url = git@github.com:tmux-plugins/tmux-resurrect.git
