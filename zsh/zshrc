@@ -144,3 +144,4 @@ setopt complete_aliases
 
 source ~/.rosrc
 source ~/.aliasrc
+source ~/.apikeys

@@ -20,6 +20,7 @@ fi
 ln -sf $DOTFILES_DIR/zsh/zshrc ~/.zshrc
 ln -sf $DOTFILES_DIR/config/rosrc ~/.rosrc
 ln -sf $DOTFILES_DIR/config/aliasrc ~/.aliasrc
+# ln -sf $DOTFILES_DIR/config/apikeys ~/.apikeys
 
 # Sync custom plugins (including submodules)
 CUSTOM_SRC="$DOTFILES_DIR/zsh/plugins/custom"
