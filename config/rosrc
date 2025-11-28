@@ -85,7 +85,7 @@ thedds()
   fi
 
   local default_id=1
-  local alt_id=91so
+  local alt_id=91
 
   if [[ -z "${DDS_DOMAIN_ID+x}" ]]; then
     export DDS_DOMAIN_ID=$default_id
